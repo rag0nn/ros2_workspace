@@ -1,7 +1,0 @@
-ros2 service call [o nodedaki servis ismi] [servis türü] [parametreler]
-örn: ros2 service call /add_two_ints_example example_interfaces/srv/AddTwoInts "{a: 5,b: 9}" 
-
-#service remapping
-ros2 run [paket ismi] [node etiketi] --ros-args --remap [node ismi]:=[yeni node ismi] 
-ros2 run my_py_pkg add_two_ints_server --ros-args --remap add_two_ints:=yeni_isim
-
