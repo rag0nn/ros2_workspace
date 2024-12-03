@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_custom_interface/srv/PerceptronService.srv
+// generated code does not contain a copyright notice
+
+
+module my_custom_interface {
+  module srv {
+    struct PerceptronService_Request {
+      sequence<double> inputs;
+
+      string activation;
+    };
+    struct PerceptronService_Response {
+      double result;
+    };
+  };
+};

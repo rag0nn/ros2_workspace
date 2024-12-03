@@ -1,0 +1,32 @@
+[0.400s] Invoking command in '/home/rag0n/Desktop/project/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/rag0n/Desktop/project/ros2_ws/build/my_py_pkg/prefix_override:/home/rag0n/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/rag0n/Desktop/project/ros2_ws/build/my_py_pkg/build install --record /home/rag0n/Desktop/project/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.536s] running egg_info
+[0.537s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.537s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.537s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.537s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.537s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.539s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.539s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.539s] running build
+[0.539s] running build_py
+[0.540s] running install
+[0.540s] running install_lib
+[0.541s] running install_data
+[0.541s] running install_egg_info
+[0.542s] removing '/home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.542s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.543s] running install_scripts
+[0.555s] Installing cst_int_publisher script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.555s] Installing cst_int_subscriber script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.555s] Installing example_client script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing example_oop_client script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing example_server script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing mine_pub script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing mine_pub_loud script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing mine_sub script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing mine_sub_loud script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing py_node script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing state_publisher script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] Installing state_subscriber script to /home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.556s] writing list of installed files to '/home/rag0n/Desktop/project/ros2_ws/build/my_py_pkg/install.log'
+[0.571s] Invoked command in '/home/rag0n/Desktop/project/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/rag0n/Desktop/project/ros2_ws/build/my_py_pkg/prefix_override:/home/rag0n/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/rag0n/Desktop/project/ros2_ws/build/my_py_pkg/build install --record /home/rag0n/Desktop/project/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

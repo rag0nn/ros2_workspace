@@ -1,0 +1,23 @@
+{
+  "package_name": "my_custom_interface",
+  "output_dir": "/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface/rosidl_typesupport_introspection_c/my_custom_interface",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface/rosidl_adapter/my_custom_interface:msg/PerceptionInputs.idl",
+    "/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface/rosidl_adapter/my_custom_interface:msg/Loud.idl",
+    "/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface/rosidl_adapter/my_custom_interface:srv/PerceptronService.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface/rosidl_adapter/my_custom_interface/msg/PerceptionInputs.idl",
+    "/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface/rosidl_adapter/my_custom_interface/msg/Loud.idl",
+    "/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface/rosidl_adapter/my_custom_interface/srv/PerceptronService.idl"
+  ]
+}

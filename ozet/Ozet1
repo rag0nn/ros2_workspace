@@ -1,0 +1,29 @@
+Çalışma alanı oluşturma
+$ colcon build
+kurulan dosyaların yanına src klasörü ekliyoruz ve projeyi oraya yazıyoruz
+
+Paket oluşturma
+$ ros2 pkg create [isim] --build-type ament_python --dependencies rclpy
+(BUnu src klasörünün altına oluşturulmalı)
+kodlar bunun içerisindeki isim/isim/ klasörü altına yazılmalı örn:// /my_pkg/my_pkg/new_py.py
+
+
+VSCode aç
+$ code .
+
+yeni dosya oluştur
+touch new_py.py
+
+paket tammaandıktan sonrak kurmak için
+$ colcon build
+
+#kodu yazdıktan sonra çalıştırmak için
+chmod +x my_first_node.py # bu kod linuxta dosyayı çalıştırılabilir hale getirmek için kullanılır
+./my_first_node.py
+
+#kodu yazdıktan sonra nodu konsoldan çağırabilmek için
+proje dosyasındaki setup.py içerisindeki scriptsin içerisinde örnekteki gibi yazıyoruz.
+"py_node = my_py_pkg.my_first_node:main" buradaki py_node kendi koydugumuz isimdir
+bu işlemin ardıdnan colcon build ile projeyi tekrardan build etmemiz gerekir
+artık nodu direkt olarak konsoldan çağırabiliriz:
+ros2 run my_py_pkg py_node #örnek 

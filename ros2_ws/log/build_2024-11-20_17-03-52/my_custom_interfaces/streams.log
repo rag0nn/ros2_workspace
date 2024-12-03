@@ -1,0 +1,39 @@
+[0.346s] Invoking command in '/home/rag0n/Desktop/project/ros2_ws/src/my_custom_interfaces': PYTHONPATH=/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/prefix_override:/home/rag0n/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_custom_interfaces build --build-base /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build install --record /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/install.log --single-version-externally-managed install_data
+[0.479s] running egg_info
+[0.479s] creating ../../build/my_custom_interfaces/my_custom_interfaces.egg-info
+[0.479s] writing ../../build/my_custom_interfaces/my_custom_interfaces.egg-info/PKG-INFO
+[0.479s] writing dependency_links to ../../build/my_custom_interfaces/my_custom_interfaces.egg-info/dependency_links.txt
+[0.479s] writing entry points to ../../build/my_custom_interfaces/my_custom_interfaces.egg-info/entry_points.txt
+[0.479s] writing requirements to ../../build/my_custom_interfaces/my_custom_interfaces.egg-info/requires.txt
+[0.479s] writing top-level names to ../../build/my_custom_interfaces/my_custom_interfaces.egg-info/top_level.txt
+[0.479s] writing manifest file '../../build/my_custom_interfaces/my_custom_interfaces.egg-info/SOURCES.txt'
+[0.480s] reading manifest file '../../build/my_custom_interfaces/my_custom_interfaces.egg-info/SOURCES.txt'
+[0.481s] writing manifest file '../../build/my_custom_interfaces/my_custom_interfaces.egg-info/SOURCES.txt'
+[0.481s] running build
+[0.481s] running build_py
+[0.481s] creating /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build
+[0.481s] creating /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build/lib
+[0.481s] creating /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build/lib/my_custom_interfaces
+[0.481s] copying my_custom_interfaces/publisher.py -> /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build/lib/my_custom_interfaces
+[0.481s] copying my_custom_interfaces/__init__.py -> /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build/lib/my_custom_interfaces
+[0.482s] running install
+[0.482s] running install_lib
+[0.483s] creating /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages/my_custom_interfaces
+[0.483s] copying /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build/lib/my_custom_interfaces/publisher.py -> /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages/my_custom_interfaces
+[0.483s] copying /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build/lib/my_custom_interfaces/__init__.py -> /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages/my_custom_interfaces
+[0.483s] byte-compiling /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages/my_custom_interfaces/publisher.py to publisher.cpython-310.pyc
+[0.483s] byte-compiling /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages/my_custom_interfaces/__init__.py to __init__.cpython-310.pyc
+[0.483s] running install_data
+[0.483s] creating /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/share/ament_index
+[0.483s] creating /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index
+[0.483s] creating /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/packages
+[0.483s] copying resource/my_custom_interfaces -> /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/packages
+[0.483s] copying package.xml -> /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces
+[0.484s] creating /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg
+[0.484s] copying msg/Perception.msg -> /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg
+[0.484s] running install_egg_info
+[0.485s] Copying ../../build/my_custom_interfaces/my_custom_interfaces.egg-info to /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages/my_custom_interfaces-0.0.0-py3.10.egg-info
+[0.485s] running install_scripts
+[0.500s] Installing pub_node script to /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/my_custom_interfaces
+[0.501s] writing list of installed files to '/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/install.log'
+[0.519s] Invoked command in '/home/rag0n/Desktop/project/ros2_ws/src/my_custom_interfaces' returned '0': PYTHONPATH=/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/prefix_override:/home/rag0n/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_custom_interfaces build --build-base /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/build install --record /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interfaces/install.log --single-version-externally-managed install_data

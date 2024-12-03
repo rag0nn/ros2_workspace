@@ -1,0 +1,3 @@
+[console_scripts]
+pub_node = my_custom_interfaces.publisher:main
+

@@ -1,0 +1,25 @@
+## MODEL BAŞLATMAK
+
+# LIDAR TERCİHİ 
+export LDS_MODEL=LDS-01 #LDS-02 de seçilebilir bir seçim her zaman gereklidir
+export TURTLEBOT3_MODEL=waffle # turtlebot3 modeli seçilmeli
+
+# LAUNCH EXAMPLE TURTLEBOT3 WORLD
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch
+
+# LAUNCH NAV2
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
+
+# LAUNCH SLAM_TOOLBOX'u 
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+
+# LAUNCH RVIZ
+ros2 run rviz2 rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz
+
+### ros2 topic list ile topicler listlebiliyor olmalı
+
+#TURTLEBOT3 HAREKET ETTİRMEK
+ros2 run turtlebot3_teleop teleop_keyboard
+
+# HARİTAYI KAYDETMEK
+ros2 run nav2_map_server map_saver_cli -f my_map

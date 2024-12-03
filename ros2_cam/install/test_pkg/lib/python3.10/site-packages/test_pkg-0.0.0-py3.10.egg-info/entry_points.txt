@@ -1,0 +1,4 @@
+[console_scripts]
+vid_publisher = test_pkg.vid_publisher:main
+vid_subscriber = test_pkg.vid_subscriber:main
+

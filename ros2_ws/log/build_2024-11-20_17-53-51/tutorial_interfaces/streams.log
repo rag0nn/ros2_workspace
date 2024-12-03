@@ -1,0 +1,34 @@
+[0.665s] Invoking command in '/home/rag0n/Desktop/project/ros2_ws/src/tutorial_interfaces': PYTHONPATH=/home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/prefix_override:/home/rag0n/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tutorial_interfaces build --build-base /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/build install --record /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/install.log --single-version-externally-managed install_data
+[0.815s] running egg_info
+[0.815s] creating ../../build/tutorial_interfaces/tutorial_interfaces.egg-info
+[0.815s] writing ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/PKG-INFO
+[0.816s] writing dependency_links to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/dependency_links.txt
+[0.816s] writing entry points to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/entry_points.txt
+[0.816s] writing requirements to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/requires.txt
+[0.816s] writing top-level names to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/top_level.txt
+[0.816s] writing manifest file '../../build/tutorial_interfaces/tutorial_interfaces.egg-info/SOURCES.txt'
+[0.817s] reading manifest file '../../build/tutorial_interfaces/tutorial_interfaces.egg-info/SOURCES.txt'
+[0.817s] adding license file 'LICENSE'
+[0.818s] writing manifest file '../../build/tutorial_interfaces/tutorial_interfaces.egg-info/SOURCES.txt'
+[0.818s] running build
+[0.818s] running build_py
+[0.818s] creating /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/build
+[0.818s] creating /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/build/lib
+[0.818s] creating /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/build/lib/tutorial_interfaces
+[0.818s] copying tutorial_interfaces/__init__.py -> /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/build/lib/tutorial_interfaces
+[0.818s] running install
+[0.819s] running install_lib
+[0.819s] creating /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces
+[0.819s] copying /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/build/lib/tutorial_interfaces/__init__.py -> /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces
+[0.819s] byte-compiling /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/__init__.py to __init__.cpython-310.pyc
+[0.820s] running install_data
+[0.820s] creating /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/share/ament_index
+[0.820s] creating /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index
+[0.820s] creating /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages
+[0.820s] copying resource/tutorial_interfaces -> /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages
+[0.820s] copying package.xml -> /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces
+[0.820s] running install_egg_info
+[0.822s] Copying ../../build/tutorial_interfaces/tutorial_interfaces.egg-info to /home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[0.823s] running install_scripts
+[0.838s] writing list of installed files to '/home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/install.log'
+[0.868s] Invoked command in '/home/rag0n/Desktop/project/ros2_ws/src/tutorial_interfaces' returned '0': PYTHONPATH=/home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/prefix_override:/home/rag0n/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tutorial_interfaces build --build-base /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/build install --record /home/rag0n/Desktop/project/ros2_ws/build/tutorial_interfaces/install.log --single-version-externally-managed install_data

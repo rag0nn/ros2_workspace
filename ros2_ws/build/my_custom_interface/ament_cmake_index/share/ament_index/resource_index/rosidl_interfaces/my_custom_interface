@@ -1,0 +1,8 @@
+msg/Loud.idl
+msg/Loud.msg
+msg/PerceptionInputs.idl
+msg/PerceptionInputs.msg
+srv/PerceptronService.idl
+srv/PerceptronService.srv
+srv/PerceptronService_Request.msg
+srv/PerceptronService_Response.msg

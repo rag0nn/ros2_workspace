@@ -1,0 +1,8 @@
+{
+  "package_name": "my_custom_interface",
+  "non_idl_tuples": [
+    "/home/rag0n/Desktop/project/ros2_ws/src/my_custom_interface:msg/PerceptionInputs.msg",
+    "/home/rag0n/Desktop/project/ros2_ws/src/my_custom_interface:msg/Loud.msg",
+    "/home/rag0n/Desktop/project/ros2_ws/src/my_custom_interface:srv/PerceptronService.srv"
+  ]
+}

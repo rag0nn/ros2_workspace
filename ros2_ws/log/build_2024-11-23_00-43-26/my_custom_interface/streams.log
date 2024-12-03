@@ -1,0 +1,294 @@
+[0.007s] Invoking command in '/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces:/home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg:/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface -- -j8 -l8
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.100s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.119s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.120s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.123s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.157s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.323s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.601s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.615s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.616s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.616s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.622s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.627s] -- Added test 'lint_cmake' to check CMake code style
+[0.628s] -- Added test 'xmllint' to check XML markup files
+[0.629s] -- Configuring done
+[0.647s] -- Generating done
+[0.649s] -- Build files have been written to: /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface
+[0.665s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.670s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.677s] [  4%] Built target ament_cmake_python_copy_my_custom_interface
+[0.825s] running egg_info
+[0.826s] writing my_custom_interface.egg-info/PKG-INFO
+[0.826s] writing dependency_links to my_custom_interface.egg-info/dependency_links.txt
+[0.826s] writing top-level names to my_custom_interface.egg-info/top_level.txt
+[0.828s] reading manifest file 'my_custom_interface.egg-info/SOURCES.txt'
+[0.828s] writing manifest file 'my_custom_interface.egg-info/SOURCES.txt'
+[0.848s] [  4%] Built target ament_cmake_python_build_my_custom_interface_egg
+[0.918s] [  4%] Built target my_custom_interface__cpp
+[0.925s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.925s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.926s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.968s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_generator_c[0m
+[0.979s] [ 17%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interface/msg/detail/loud__functions.c.o[0m
+[0.980s] [ 17%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interface/srv/detail/perceptron_service__functions.c.o[0m
+[0.980s] [ 17%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interface/msg/detail/perception_inputs__functions.c.o[0m
+[1.036s] [ 19%] [32m[1mLinking C shared library libmy_custom_interface__rosidl_generator_c.so[0m
+[1.060s] [ 19%] Built target my_custom_interface__rosidl_generator_c
+[1.068s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.069s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.069s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.185s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_introspection_cpp[0m
+[1.199s] [ 27%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interface/srv/detail/perceptron_service__type_support.cpp.o[0m
+[1.202s] [ 29%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interface/msg/detail/loud__type_support.cpp.o[0m
+[1.202s] [ 31%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interface/msg/detail/perception_inputs__type_support.cpp.o[0m
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_cpp[0m
+[1.234s] [ 34%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interface/msg/perception_inputs__type_support.cpp.o[0m
+[1.314s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.333s] [ 36%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interface/msg/detail/dds_fastrtps/perception_inputs__type_support.cpp.o[0m
+[1.433s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_introspection_c[0m
+[1.446s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_c[0m
+[1.449s] [ 38%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interface/msg/detail/perception_inputs__type_support.c.o[0m
+[1.460s] [ 40%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interface/msg/perception_inputs__type_support.cpp.o[0m
+[1.490s] [ 42%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interface/msg/detail/loud__type_support.c.o[0m
+[1.494s] [ 44%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interface/msg/loud__type_support.cpp.o[0m
+[1.510s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_fastrtps_c[0m
+[1.518s] [ 46%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interface/msg/loud__type_support.cpp.o[0m
+[1.521s] [ 48%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interface/msg/detail/perception_inputs__type_support_c.cpp.o[0m
+[1.522s] [ 51%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interface/srv/detail/perceptron_service__type_support.c.o[0m
+[1.526s] [ 53%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interface/srv/perceptron_service__type_support.cpp.o[0m
+[1.565s] [ 55%] [32m[1mLinking C shared library libmy_custom_interface__rosidl_typesupport_introspection_c.so[0m
+[1.567s] [ 57%] [32m[1mLinking CXX shared library libmy_custom_interface__rosidl_typesupport_c.so[0m
+[1.619s] [ 59%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interface/srv/perceptron_service__type_support.cpp.o[0m
+[1.621s] [ 59%] Built target my_custom_interface__rosidl_typesupport_introspection_c
+[1.631s] [ 61%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interface/msg/detail/loud__type_support_c.cpp.o[0m
+[1.632s] [ 61%] Built target my_custom_interface__rosidl_typesupport_c
+[1.651s] [ 63%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interface/msg/detail/dds_fastrtps/loud__type_support.cpp.o[0m
+[1.658s] [ 65%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interface/srv/detail/dds_fastrtps/perceptron_service__type_support.cpp.o[0m
+[1.665s] [ 68%] [32m[1mLinking CXX shared library libmy_custom_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.762s] [ 68%] Built target my_custom_interface__rosidl_typesupport_introspection_cpp
+[1.770s] [ 70%] [32mBuilding CXX object CMakeFiles/my_custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interface/srv/detail/perceptron_service__type_support_c.cpp.o[0m
+[1.925s] [ 72%] [32m[1mLinking CXX shared library libmy_custom_interface__rosidl_typesupport_cpp.so[0m
+[1.953s] [ 72%] Built target my_custom_interface__rosidl_typesupport_cpp
+[2.018s] [ 74%] [32m[1mLinking CXX shared library libmy_custom_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.052s] [ 76%] [32m[1mLinking CXX shared library libmy_custom_interface__rosidl_typesupport_fastrtps_c.so[0m
+[2.070s] [ 76%] Built target my_custom_interface__rosidl_typesupport_fastrtps_cpp
+[2.098s] [ 76%] Built target my_custom_interface__rosidl_typesupport_fastrtps_c
+[2.112s] [ 76%] Built target my_custom_interface
+[2.127s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.463s] [ 78%] Built target my_custom_interface__py
+[2.470s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_generator_py[0m
+[2.478s] [ 85%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interface/msg/_loud_s.c.o[0m
+[2.478s] [ 85%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interface/msg/_perception_inputs_s.c.o[0m
+[2.478s] [ 85%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interface/srv/_perceptron_service_s.c.o[0m
+[2.558s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_interface/libmy_custom_interface__rosidl_generator_py.so[0m
+[2.582s] [ 87%] Built target my_custom_interface__rosidl_generator_py
+[2.588s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_introspection_c__pyext[0m
+[2.589s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.589s] [35m[1mConsolidate compiler generated dependencies of target my_custom_interface__rosidl_typesupport_c__pyext[0m
+[2.597s] [ 93%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_custom_interface/_my_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.597s] [ 93%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_custom_interface/_my_custom_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[2.597s] [ 93%] [32mBuilding C object CMakeFiles/my_custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_custom_interface/_my_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.660s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_interface/my_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.663s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_interface/my_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.664s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_interface/my_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.681s] [100%] Built target my_custom_interface__rosidl_typesupport_c__pyext
+[2.683s] [100%] Built target my_custom_interface__rosidl_typesupport_introspection_c__pyext
+[2.684s] [100%] Built target my_custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.691s] Invoked command in '/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces:/home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg:/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface -- -j8 -l8
+[2.752s] Invoking command in '/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces:/home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg:/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface
+[2.757s] -- Install configuration: ""
+[2.757s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/ament_index/resource_index/rosidl_interfaces/my_custom_interface
+[2.757s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface
+[2.757s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv
+[2.757s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail
+[2.757s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__functions.c
+[2.757s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__functions.h
+[2.757s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__struct.h
+[2.757s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__type_support.h
+[2.757s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/perceptron_service.h
+[2.758s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg
+[2.758s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/rosidl_generator_c__visibility_control.h
+[2.758s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__functions.h
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__functions.c
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__functions.h
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__type_support.h
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__struct.h
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__type_support.h
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__struct.h
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__functions.c
+[2.758s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/loud.h
+[2.759s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/perception_inputs.h
+[2.759s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/library_path.sh
+[2.759s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/library_path.dsv
+[2.759s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_generator_c.so
+[2.759s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_generator_c.so" to ""
+[2.759s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface
+[2.759s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv
+[2.760s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail
+[2.760s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__rosidl_typesupport_fastrtps_c.h
+[2.760s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg
+[2.760s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.760s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail
+[2.760s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__rosidl_typesupport_fastrtps_c.h
+[2.760s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__rosidl_typesupport_fastrtps_c.h
+[2.760s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_fastrtps_c.so
+[2.760s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[2.760s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface
+[2.760s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/perceptron_service.hpp
+[2.761s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__traits.hpp
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__struct.hpp
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__builder.hpp
+[2.761s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/loud.hpp
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/perception_inputs.hpp
+[2.761s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__builder.hpp
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__struct.hpp
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__struct.hpp
+[2.761s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__traits.hpp
+[2.762s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__builder.hpp
+[2.762s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__traits.hpp
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail
+[2.762s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__rosidl_typesupport_fastrtps_cpp.hpp
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/dds_fastrtps
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail
+[2.762s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/dds_fastrtps
+[2.762s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__rosidl_typesupport_fastrtps_cpp.hpp
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__rosidl_typesupport_fastrtps_cpp.hpp
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.763s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.763s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface
+[2.763s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv
+[2.763s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__type_support.c
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__rosidl_typesupport_introspection_c.h
+[2.763s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg
+[2.763s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__type_support.c
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__rosidl_typesupport_introspection_c.h
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__type_support.c
+[2.763s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__rosidl_typesupport_introspection_c.h
+[2.763s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_introspection_c.so
+[2.764s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_introspection_c.so" to ""
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_c.so
+[2.764s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_c.so" to ""
+[2.764s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface
+[2.764s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv
+[2.764s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__rosidl_typesupport_introspection_cpp.hpp
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/srv/detail/perceptron_service__type_support.cpp
+[2.764s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg
+[2.764s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__rosidl_typesupport_introspection_cpp.hpp
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__rosidl_typesupport_introspection_cpp.hpp
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/perception_inputs__type_support.cpp
+[2.764s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/include/my_custom_interface/my_custom_interface/msg/detail/loud__type_support.cpp
+[2.765s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_introspection_cpp.so
+[2.765s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[2.765s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_cpp.so
+[2.765s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_typesupport_cpp.so" to ""
+[2.765s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/pythonpath.sh
+[2.765s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/pythonpath.dsv
+[2.765s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface-0.0.0-py3.10.egg-info
+[2.765s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.766s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.766s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.766s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.766s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface
+[2.766s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.767s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/srv
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/srv/_perceptron_service.py
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/srv/_perceptron_service_s.c
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/srv/__init__.py
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/libmy_custom_interface__rosidl_generator_py.so
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/_my_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.767s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/_loud_s.c
+[2.767s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/_perception_inputs.py
+[2.768s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/_loud.py
+[2.768s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/_perception_inputs_s.c
+[2.768s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/__init__.py
+[2.768s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/__init__.py
+[2.768s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.768s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/_my_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.768s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/_my_custom_interface_s.ep.rosidl_typesupport_c.c
+[2.793s] Listing '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface'...
+[2.793s] Compiling '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/__init__.py'...
+[2.793s] Listing '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg'...
+[2.793s] Compiling '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/__init__.py'...
+[2.793s] Compiling '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/_loud.py'...
+[2.793s] Compiling '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/msg/_perception_inputs.py'...
+[2.793s] Listing '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/srv'...
+[2.793s] Compiling '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/srv/__init__.py'...
+[2.793s] Compiling '/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/srv/_perceptron_service.py'...
+[2.796s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.796s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.796s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.797s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.797s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.797s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/local/lib/python3.10/dist-packages/my_custom_interface/my_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.797s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_generator_py.so
+[2.798s] -- Set runtime path of "/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/lib/libmy_custom_interface__rosidl_generator_py.so" to ""
+[2.798s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/msg/PerceptionInputs.idl
+[2.798s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/msg/Loud.idl
+[2.798s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/srv/PerceptronService.idl
+[2.798s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/msg/PerceptionInputs.msg
+[2.798s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/msg/Loud.msg
+[2.798s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/srv/PerceptronService.srv
+[2.798s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/srv/PerceptronService_Request.msg
+[2.798s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/srv/PerceptronService_Response.msg
+[2.799s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/ament_index/resource_index/package_run_dependencies/my_custom_interface
+[2.799s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/ament_index/resource_index/parent_prefix_path/my_custom_interface
+[2.799s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/ament_prefix_path.sh
+[2.799s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/ament_prefix_path.dsv
+[2.799s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/path.sh
+[2.799s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/environment/path.dsv
+[2.799s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/local_setup.bash
+[2.799s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/local_setup.sh
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/local_setup.zsh
+[2.800s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/local_setup.dsv
+[2.800s] -- Installing: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/package.dsv
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/ament_index/resource_index/packages/my_custom_interface
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_generator_cExport.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_generator_cExport-noconfig.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_generator_cppExport.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_cExport.cmake
+[2.800s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_cppExport.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_generator_pyExport.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/export_my_custom_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/rosidl_cmake-extras.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interfaceConfig.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/cmake/my_custom_interfaceConfig-version.cmake
+[2.801s] -- Up-to-date: /home/rag0n/Desktop/project/ros2_ws/install/my_custom_interface/share/my_custom_interface/package.xml
+[2.804s] Invoked command in '/home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rag0n/Desktop/project/ros2_ws/install/tutorial_interfaces:/home/rag0n/Desktop/project/ros2_ws/install/my_py_pkg:/home/rag0n/Desktop/project/ros2_ws/install/my_custom_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rag0n/Desktop/project/ros2_ws/build/my_custom_interface
